@@ -1,4 +1,4 @@
-name: 4 - Run on pull requests and block bad merges
+name: 4 - Block Bad Merges
 
 # Run manually from the Actions tab ("Run workflow" button)
 on:
