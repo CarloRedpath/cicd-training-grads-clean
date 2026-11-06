@@ -34,7 +34,7 @@ class HelloControllerTest {
     void helloUsesNameParam() throws Exception {
         mockMvc.perform(get("/api/hello").param("name", "Scott Logicsssss"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.message").value("Hello, Scott Logic!"));
+                .andExpect(jsonPath("$.message").value("Hello, Scott Logicsssss!"));
     }
 
     @Test
